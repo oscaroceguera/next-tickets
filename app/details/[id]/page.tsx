@@ -10,7 +10,7 @@ export default function Detail() {
         <a href="/" className="border bg-purple-600 text-white p-2">
           HOME PRINCIPAL
         </a>
-        <Link href="/tickets" className="border bg-purple-600 text-white p-2">
+        <Link href="/" className="border bg-purple-600 text-white p-2">
           HOME TICKET
         </Link>
       </div>

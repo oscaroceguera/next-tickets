@@ -9,10 +9,11 @@ export default function Home() {
           HOME
         </a>
         <Link
-          href="/tickets/details/id"
+          href="/details/id"
           className="border bg-purple-600 text-white p-2"
+          passHref
         >
-          TICKET DETAIL
+          <a href="/tickets/details/id">TICKET DETAIL</a>
         </Link>
       </div>
     </div>
