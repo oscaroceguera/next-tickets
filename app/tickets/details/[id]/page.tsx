@@ -8,9 +8,9 @@ export default function Detail() {
       </h1>
       <div className="border flex items-center justify-center gap-3">
         <a href="/" className="border bg-purple-600 text-white p-2">
-          HOME PRINCIPAL
+          HOME DASHBOARD
         </a>
-        <Link href="/" className="border bg-purple-600 text-white p-2">
+        <Link href="/tickets" className="border bg-purple-600 text-white p-2">
           HOME TICKET
         </Link>
       </div>

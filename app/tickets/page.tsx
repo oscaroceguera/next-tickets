@@ -6,14 +6,20 @@ export default function Home() {
       <h1 className="text-red-700 border text-center p-4 text-xl">TICKETS</h1>
       <div className="border flex items-center justify-center gap-3">
         <a href="/" className="border bg-purple-600 text-white p-2">
-          HOME
+          HOME DASHBOAD
         </a>
-        <Link
+        {/* <Link
           href="/details/id"
           className="border bg-purple-600 text-white p-2"
           passHref
         >
           <a href="/tickets/details/id">TICKET DETAIL</a>
+        </Link> */}
+        <Link
+          href="/tickets/details/interno"
+          className="border bg-purple-600 text-white p-2"
+        >
+          TICKET DETAIL
         </Link>
       </div>
     </div>
